@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     <script>
+          let a = undefined;
+          let b = ' ';
+          let c = !b;
+
+          let d = Boolean(a); // false a=undefined, undefined แปลงเปํย boolean มีค่าเท่ากับ false
+          let e = Boolean(b); // true b=string มีค่าจึงเป็น true
+          let f = Boolean(c); // false เพราะ ! not ของ b คือ false
+
+          console.log(d, e, f);
+
+     </script>
+</body>
+</html>
